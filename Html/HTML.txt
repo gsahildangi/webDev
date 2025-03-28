@@ -1,0 +1,22 @@
+HTML first video:
+
+HTML : Hyper text markup Language.
+
+<head> tag ( hold meta data of the document) : It contain data of the document. 
+then we have <body> - contain visual part of the website.
+
+<body>    body hierarcy can be like this.
+   -<div></div>
+     - <h1>
+     -<p>
+
+     <!DOCTYPE HTML> tell the browser that the file you about to serve is a html file also contain latest html.
+----------------------------------------------------------------------------------------------------------------------------
+Emmet, headings and block vs inline :
+
+Key points:
+- You don't learn the full html. We learn html on the go.
+
+Emmets :tool kit that generate the html fast .
+
+
