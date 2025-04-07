@@ -21,4 +21,12 @@ Emmets :tool kit that generate the html fast .
 
 Testing the pusing of this file.
 
+<h1> Somestatement </h1> :> This collective it is called a Element.
 
+Now these tag also have atribute. So to give special power to a particular tag we give attribute.
+
+<a href="www.google.com">Click to visit Google here</a>
+Here this href="url" is attribute for this particular anchor tag.
+
+<a href="mailto:sahildangi0801@gmail.com"> mail here </a>
+Here this attribute anchor us to the mailing of the client
