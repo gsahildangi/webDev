@@ -11,7 +11,10 @@ then we have <body> - contain visual part of the website.
      -<p>
 
      <!DOCTYPE HTML> tell the browser that the file you about to serve is a html file also contain latest html.
+
 ----------------------------------------------------------------------------------------------------------------------------
+
+
 Emmet, headings and block vs inline :
 
 Key points:
@@ -30,3 +33,77 @@ Here this href="url" is attribute for this particular anchor tag.
 
 <a href="mailto:sahildangi0801@gmail.com"> mail here </a>
 Here this attribute anchor us to the mailing of the client
+
+List in Html:
+
+orderred list and unordered list
+1                       *
+2                       *  
+3                       *
+4                       *
+
+ul>li*3 and then hit tab
+<ul attribute=""> unorderedlist 
+   <li>Text item 1</li>
+   <li>Text item 2</li>
+   <li>Text item 3</li>
+</ul>
+<0l attribute=""> orderedlist 
+   <li>Text item 1</li>
+   <li>Text item 2</li>
+   <li>Text item 3</li>
+</ol>
+
+Element:------ There are two type of Element.
+1> Block Element. -> Goes from left to right in the browser as a block . Ex:<h1> is block level and take 
+                                                                             full space from left to right.
+2> Inline Element. -> a small image on the webpage is inlie which do not take the full space from left to right.
+                                                                         Ex: image tag.
+
+Use inspect in crome and then you will find out which one is inline and which one is block element.
+
+
+ <div> // This is div that is a container for your other elements
+          <h1>Block Level Elements</h1>
+          <ul>
+            <li>Heading 1 to heading 6</li>
+            <li>li ol</li>
+            <li>p </li>
+            <li>many more</li>
+          </ul>
+      </div>
+--------------------------------------------------------------------------------------------------------------------------------
+
+Tables and formes in HTML:
+
+Table: So in html to show the table data we use table tag which show table data on the web browser for us
+
+Form :So to take any input data from the user we use form. We have form for HTML,Email,Password,FIle
+    
+      Now we enter data un table row wise.
+
+Table Example:
+      <table> //Here this table is for the table which tell browser that it is table.
+             <tr>//Now as we enter data in table row wise so this is first row now lets add table heading and data in table in first row
+                  <th>Name</th> Here is is table heading which will come a little bold.
+                  <th>Age</th>
+                  <th>Designation</th>
+             </tr>            //Now all above two will be our first row will heading of the table and name first column of row 1 and age is second column for row 1.
+             <tr> //Now this is row 2
+                  <td>Sahil</td>//First column of row 2 // Here td is for table data
+                  <td>33</td>   //Second column of row 2
+                  <td>IT</td>   //Third column of row 2
+             </tr>
+             <tr>
+                 <td>Chinmay</td>
+                 <td>23</td>
+                 <td>Health care</td>
+             </tr>
+           
+      </table>
+
+      Now this table is somewhat like this:
+
+      Name    Age Designation    // This first row will be bold as it is <th> i.e table heading
+      Sahil   33  IT
+      Chinmay 23  Health care
