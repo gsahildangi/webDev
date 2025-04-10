@@ -107,3 +107,14 @@ Table Example:
       Name    Age Designation    // This first row will be bold as it is <th> i.e table heading
       Sahil   33  IT
       Chinmay 23  Health care
+
+  Forms: When we want to take the data from the user.
+
+    <form></form> this is to tell browser that it is going to be a form.
+    Now form have some child elements in it 
+    The first one is 
+    <input type="text"> - Now this will give a section for us to input some text in it.
+    <label for=""></label> - this will give a label to our input box/section. Just like as we saw in 
+                              some login form username and then a section where we can enter the username 
+                              the first one is label as it label us that it is a username section and then in
+                              that section we can input our 
