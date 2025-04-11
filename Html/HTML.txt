@@ -118,3 +118,53 @@ Table Example:
                               some login form username and then a section where we can enter the username 
                               the first one is label as it label us that it is a username section and then in
                               that section we can input our 
+
+
+   <body>
+     <h1>Login Forms</h1>
+     <form>
+        <label for="email">
+            Email:
+            <input type="text" name="email">             
+        </label>
+        <label for="password">
+            Password:
+            <input type="password" name="password" id="">
+        </label>
+        <button type="submit">Login</button>
+         <button type="reset">Reset</button>
+    </form>
+    <form>
+        <label for="email>
+            Email:
+        <input type="email" name="email" id="">
+        </label>
+       <label for="games">
+        <input type="range" name="games" id="">
+       </label>
+
+       <select name="Games" id="">
+              <option value="Cricket">Cricket</option>
+              <option value="Baseball">Baseball</option>
+       </select>
+    </form>
+</body>
+
+------------------------------------------------------------------------------------------------------------------------
+
+Building a semantic Webpage.
+
+Semantic: Now the semantic guides your webpage that how the content should be structured and wrap around
+          There used to be a time when everything used to be wrapped around just the divs and no longer this is the case.
+          Now we actually have better semantic tags so that we can wrap around entire page and it can
+          do so much justice to the screen readers and other places where your data can be consumed.
+
+
+**Important:
+     This does not make a difference in look of funtion of the website however while searching or on other 
+      operation then it really make a difference.
+      EX: Lets suppose we make a website where we are giveing news and then some other came searcing for the heading of the job and 
+      if we had not placed it in heading then it will create problem.
+
+      To do:
+      For example if you are using time on the website put it in time tag so that browser understnad it good.
