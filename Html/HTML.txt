@@ -152,7 +152,7 @@ Table Example:
 
 ------------------------------------------------------------------------------------------------------------------------
 
-Building a semantic Webpage.
+Building a semantic Webpage . 
 
 Semantic: Now the semantic guides your webpage that how the content should be structured and wrap around
           There used to be a time when everything used to be wrapped around just the divs and no longer this is the case.
@@ -167,4 +167,4 @@ Semantic: Now the semantic guides your webpage that how the content should be st
       if we had not placed it in heading then it will create problem.
 
       To do:
-      For example if you are using time on the website put it in time tag so that browser understnad it good.
+      For example if you are using time on the website put it in time tag as it conveys additional semantic information.
