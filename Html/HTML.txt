@@ -168,3 +168,15 @@ Semantic: Now the semantic guides your webpage that how the content should be st
 
       To do:
       For example if you are using time on the website put it in time tag as it conveys additional semantic information.
+
+      -------------------------------------------------------------------------------------------------------------------------------------------
+
+
+      ** We have two ways to insert image in a webpage :
+        1. with the help of img tag.
+        2. with the help of <figure> tag. go and do a mdn search.
+
+        so the main difference is in the figure tag the image and caption are looked as a single entity whereas in the img tag
+        the image is different entity and the caption is different entity.
+
+        
