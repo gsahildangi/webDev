@@ -8,7 +8,52 @@ Css do two main things. :-
 
 There are 3 ways in which we can inject css in a Html page.
    
-   1. Inline Styling :- In this styling in which we style within the Element
+**Imp: Every Element has a global attribute that is "<stype></style>" which can be used within the element to style it. 
+
+   1. Inline Styling :- In this styling in which we style within the Element 
                         This approach is opted by tailwind css in which style the element in inline way.
 
-   2.                   
+   2. In head of the page:- here in this type of styling we write the styling of the full page in the head portion in 
+                             <style></style> element. Here we can select the element and then we can stype it usig css.
+
+   3. In SEPERATE file:- Here we can put our css content in a different file and then eject that file in the webpage we wanted
+                         We have to include that file in head part of the webpage.
+
+
+               Ways to select the element:- There are usually two ways to slect the element
+                                     Using :
+                                     1. ID of the element you want to select.
+                                     2. CLASS of the element you wnat to Select .
+                                     3. also by name of the element( This approach fails when there are more than one element with same name)
+
+               ****IMP :
+                       ID can never be same for two elements where as CLASS can be same for the tow elements
+                        and we can style two elements same using same class for them.
+                           
+ <!--Now this approach is using selecting the element where we are selecting the element h2 and p-->
+    <style>   
+          h2, p{
+            color:aquamarine
+          }
+        #h2_second {               //ID's are selected by "#" sign.
+            color: antiquewhite;
+        }
+        .same_class{               // Classes are selected by " . " sign.
+            color: blue;
+        }
+    
+    </style>
+
+**Very Important : Speciacity rule : in which if we change color of p in file as brown and then we are changing it to red in a different file
+                   What should our browser choose?
+     -------
+    |     it will always select the styling that is done within the document or wihin the element itself
+    |     using style="" sttribute in the element.
+    |
+
+  *** Summary: 
+   I can write my styling within inline, just like this.
+   I can add the classes, I can target multiple elements, or
+   I can write my styles into a separate file as well
+   by adding just this link to the style sheet .
+   So these are three ways how you can write your css  
