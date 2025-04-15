@@ -1,0 +1,14 @@
+CSS (Chai aur code)
+
+This is notes for css.
+
+Css do two main things. :-
+   1. Select Element           2. Style Element
+
+
+There are 3 ways in which we can inject css in a Html page.
+   
+   1. Inline Styling :- In this styling in which we style within the Element
+                        This approach is opted by tailwind css in which style the element in inline way.
+
+   2.                   
