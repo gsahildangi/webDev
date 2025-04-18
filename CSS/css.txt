@@ -57,3 +57,6 @@ There are 3 ways in which we can inject css in a Html page.
    I can write my styles into a separate file as well
    by adding just this link to the style sheet .
    So these are three ways how you can write your css  
+   ------------------------------------------------------------------------------------------------------------------------------------------------
+
+ Video 2:- Now lets start making a small project in css as we can only learn css with little little project in it.
