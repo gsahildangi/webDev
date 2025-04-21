@@ -96,3 +96,11 @@ We can use flex box as:
  Flexbox is applied to the parent of the elments .
  for example if we have a form in the div then form have some element then we can put flex on the form 
  and then use Flexbox properties on the child elements.           
+
+ ------------------------------------------------------------------------------------------------------------------------------------------------
+Video:  Masterclass on CSS selector.
+
+Q: How to select the element?
+
+    The most easy way is using class.
+
