@@ -60,3 +60,39 @@ There are 3 ways in which we can inject css in a Html page.
    ------------------------------------------------------------------------------------------------------------------------------------------------
 
  Video 2:- Now lets start making a small project in css as we can only learn css with little little project in it.
+
+ basic styling that we give to a webpage is :
+ as browser give it's own margin and padding so we have to remove that and should give a height
+ to our webpage.
+
+ margin: 0;
+ padding: 0;
+ height: 300vh;   here we can also use px as300px then it will give 300 pixel now what happening is
+                  it is taking vh (view port height) that mean it will adjust accourding to the size of 
+                  the device it is opened on.
+
+(That means if you're watching it on a
+bigger screen, I want all the length.
+If you're watching in the smaller screen, I'll just
+calculate that height and I'll want all of it.
+Hundred percent of the viewport height.
+There are other options like 50 vh.
+You can grab 50% of the viewport
+height, but that is good enough.)
+
+
+FLEX BOX: 
+The Flexbox.
+Flexbox is a display property which helps us to
+move the elements much more faster and easier.
+
+We can use flex box as:
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            
+            these 3 will align your content to center and align items to center also.
+
+ Flexbox is applied to the parent of the elments .
+ for example if we have a form in the div then form have some element then we can put flex on the form 
+ and then use Flexbox properties on the child elements.           
