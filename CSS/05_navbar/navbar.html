@@ -23,11 +23,31 @@
             background-color: #f8f9fa;
             padding: 10px;
         }
-        .nav1 ul{
+        .nav1 ul{  /*Here we are targating the ul which are inside the nav1*/
             /* Here we are using desendent selectors */
             list-style-type: none;
-
-        }
+            margin: 0;
+            padding: 0;
+            display:flex;
+            justify-content: space-around;
+       }
+       .nav1 li{
+        display: inline; /*Here that inline is making a huge change as list are block elemet and we want everything
+                             in in line form*/
+       }
+       .nav1 a{
+        text-decoration: none;
+        color: #1a1a1a;
+        /* background-color: rgb(240, 169, 76); */
+        padding : 5px 15px;
+       }
+       .nav1 .login-btn {
+        background-color:#3b3bff;
+        color: #f8f9fa;
+        padding: 5px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+       }
             
     </style>
 </head>
