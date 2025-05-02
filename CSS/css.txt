@@ -104,3 +104,36 @@ Q: How to select the element?
 
     The most easy way is using class.
 
+
+Pseudo elements:
+
+::after {
+  content: /* value (It is the value or Pseudo content that we will see on the website)*/;
+  /* properties  : These are the properties FOR  the content of the pseudo element */
+}
+
+:before
+
+In CSS, ::before creates a pseudo-element that is the first child of the selected element.
+It is often used to add cosmetic content to an element with the content property. It is inline by default.
+
+Example of the pseudo element : 
+::after
+
+HTML CODE:
+<p class="boring-text">Here is some plain old boring text.</p>
+<p>Here is some normal text that is neither boring nor exciting.</p>
+<p class="exciting-text">Contributing to MDN is easy and fun.</p>
+
+CSS CODE:
+.exciting-text:hover::after {
+  content: " <- EXCITING!";
+  color: darkgreen;
+  font-weight: bolder;
+}
+
+.boring-text:hover::after {
+  content: " <- BORING";
+  color: darkviolet;
+  font-weight: bolder;
+}
