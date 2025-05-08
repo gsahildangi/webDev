@@ -137,3 +137,14 @@ CSS CODE:
   color: darkviolet;
   font-weight: bolder;
 }
+                                               Flexbox Flexbox Flexbox Flexbox Flexbox Flexbox
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+The Flexbox has 2 acess :
+  Main Access
+  Other Access/ Alternate Access
+
+  *****
+     SO In the world of WEB the Main Access runs from LEFT to RIGHT 
+     also a additional info : in the world of mobile application the main access of Flexbox runs from
+    TOP to BOTTOM
