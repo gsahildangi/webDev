@@ -148,3 +148,28 @@ The Flexbox has 2 acess :
      SO In the world of WEB the Main Access runs from LEFT to RIGHT 
      also a additional info : in the world of mobile application the main access of Flexbox runs from
     TOP to BOTTOM
+
+Let me tell you, there are a couple
+of other properties which starts with justify.
+And this whole thing.
+Justify actually runs on the main axis.
+So it controls how your element are going to behave
+From LEFT TO RIGHT
+
+
+* To impliment the flex box we have to give the container element "display: flex;"
+* Them after that we can use some properties 
+* The first one is "flex direction" - The default direction of the flex box is "ROW" from "LEFT TO RIGHT" discussed above.
+* Now to change this behaviour we use "flex direction: " property.  
+  
+   - Now in the code part 06_flexbox.html file 
+   - the first box is default flex that is from left to right and is "row wise"
+
+* Now in the 2. flex box is in which we try and use different type of direction we can give to flexbox.
+
+* Now the 3rd one which on "Justify content: " which work on the mail access.
+   - i.e how the elemts behave from left to right 
+
+
+* Similarly the 4th flex box use  "Align item :" works on the alternative access that is "TOP TO BOTTOM"
+
