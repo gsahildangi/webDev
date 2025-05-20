@@ -173,3 +173,8 @@ From LEFT TO RIGHT
 
 * Similarly the 4th flex box use  "Align item :" works on the alternative access that is "TOP TO BOTTOM"
 
+-------------------------------------------------------------------------------------------------------------------------------
+
+                            "GRID IN CSS"
+
+                  All the theory in the code itself in the form of "COMMENTS":
