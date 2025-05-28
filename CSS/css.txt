@@ -178,3 +178,38 @@ From LEFT TO RIGHT
                             "GRID IN CSS"
 
                   All the theory in the code itself in the form of "COMMENTS":
+
+-------------------------------------------------------------------------------------------------------------------------------
+                              
+                              "Responsive design and break Points for mobile devices"
+
+   * This is just just we provide the break points for the mobile devices for example suppose the width of my mobile is 640px then 
+     i can provide a break point that till max-width:650px implement some other css that i'm providing you that its.
+
+     we use @media (){
+
+     }                           
+     
+     in this and then in brackets provide the breakpoints and can give multiple breakpoints using and in between
+
+       (min-width:20px) and (max-width:650px)  
+
+       Go check it out on 08_responsive/breakPoint.html and try it out your self
+
+
+-------------------------------------------------------------------------------------------------------------------------------
+                                      
+                                      "Bootstrap integration in your file."
+
+ To integtate the bootstrap you can you npm i bootstrap (with version)
+ Now the other way of doing so is 
+ just go in head part of your file and start a link target
+ <link rel="stylesheet" href="CDN link from documentation of bootstrap">
+
+ Now just to use boothstrap go in documentation and select the elements/COMPONENTS and use class as attribute of that elementS/COMPONENTS
+
+ like to style a button in bootstrap go in documents and check the class that you can use
+
+ for example in button case the base class is btn and then next btn-dange will give a read color button.
+
+ <button class="btn btn-primary" >Click Here</button>                                     
